@@ -1,0 +1,28 @@
+<DOCTYPE! html>
+<html>
+  <head>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel='stylesheet' href='{{url_for('static', filename='more.css')}}'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src='{{ url_for('static', filename="imageedit__4355471961.png")}}' width="200px">
+	<span class='dog'>One-legged wanderers</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="stuff" href="/">Home</a>
+</nav>
+    <form action='#' method='post'>
+	<div class='box2'>
+	  <div class='pe'>{% block question %}{% endblock %}</div><br>
+	</div>
+	  <div class='box'>
+        <input type='text' placeholder='Answer' class='answer' name='answer'><br>
+        <input type='submit' value='Submit' class='stuf'>
+	  </div>
+    </form>
+  </body>
+</html>

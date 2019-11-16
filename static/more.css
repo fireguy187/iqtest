@@ -1,0 +1,80 @@
+a {
+text-decoration: none;
+color: black;
+font-family: 'Montserrat';
+font-size: 30px;
+}
+
+.dog {
+position: absolute;
+float:left;
+display:inline;
+top: 36%;
+font-family: 'Montserrat';
+font-size: 30px;
+font-weight: bold;
+color: black;
+}
+
+.stuff {
+position: relative;
+left: 20%;
+color: black;
+}
+
+.answer {
+position: relative;
+left: 7%;
+width: 350px;
+height: 50px;
+font-size: 20px;
+padding: 5px;
+border-style: solid;
+}
+
+.stuf {
+background-color: #27db27;
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 30px;
+color: white;
+width: 400px;
+height: 100px;
+border-radius: 500px;
+border-style: solid;
+border-color: #27db27;
+margin: 5px;
+cursor: pointer;
+}
+
+.box {
+position: absolute;
+top: 50%;
+left: 40%;
+width: 400px;
+height: 200px;
+}
+
+::-webkit-input-placeholder {
+position: relative;
+left: 1%;
+}
+
+.box2 {
+position: absolute;
+text-align: center;
+font-size: 30px;
+width: 500px;
+height: 250px;
+top: 24%;
+left: 37.5%;
+text-align: center;
+}
+
+.pe {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 5%;
+left: 5%;
+}

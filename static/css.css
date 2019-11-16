@@ -1,0 +1,88 @@
+.billy {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 10%);
+}
+
+body {
+font-family: 'Montserrat';
+}
+
+.pi {
+position: absolute;
+top: 20%;
+left: 44.6%;
+color: white;
+background: #27db27;
+width: 200px;
+height: 300px;
+border-radius: 10px;
+text-align: center;
+font-size: 20px;
+}
+
+.why {
+position: relative;
+top: 5%;
+}
+
+.dog {
+position: absolute;
+float:left;
+display:inline;
+top: 36%;
+font-family: 'Montserrat';
+font-size: 30px;
+font-weight: bold;
+color: black;
+}
+
+.stuff {
+position: relative;
+left: 20%;
+color: black;
+}
+
+p {
+background: #27db27;
+width: 300px;
+height: 500px;
+font-size: 30px;
+color: white;
+border-radius: 20px;
+}
+
+.sir {
+position: relative;
+left: 2%;
+}
+
+.oviedo {
+position: absolute;
+left: 10%;
+top: 25%;
+}
+
+.number {
+font-size: 100px;
+}
+
+a {
+text-decoration: none;
+color: black;
+font-family: 'Montserrat';
+font-size: 30px;
+}
+
+.miss {
+position: relative;
+left: 2%;
+}
+
+.mesas {
+position: absolute;
+right: 10%;
+top: 25%;
+}
+	

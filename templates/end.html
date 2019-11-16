@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel='stylesheet' href='{{url_for('static', filename='css.css')}}'>
+    <title>Finalscore</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src='{{ url_for('static', filename="imageedit__4355471961.png")}}' width="200px">
+	<span class='dog'>One-legged wanderers</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="stuff" href="/">Home</a>
+</nav>
+    <span class='pi'><span class='why'><u><b>Your score was {{counter}}/5</b></u><br>This means that your IQ score is<br><span class='number'>{{x}}</span></span></span>
+    <img class='billy' src='{{url_for('static', filename='iq.jpg')}}' width="700">
+	<div class='oviedo'>
+	  <p><span class='sir'><b>Did you know?:</b><br>The average iq is 100 and to get into Mensa you need an IQ in the 98th percentile or higher! That's the equivalent of eating 10 bananas in 5 seconds!</span></p>
+    </div>
+	<div class='mesas'>
+	  <p><span class='miss'><b>Did you know?:</b><br>your iq score of {{x}} means that {{answer}}</span></p>
+    </div>
+  </body>
+</html>
